@@ -1,0 +1,33 @@
+.header-hero-btn {
+  background-color: transparent;
+  margin-bottom: 150px;
+  border-width: 1px;
+  font-size: 17px;
+  border-color: $primary-color;
+  color: $primary-color;
+  border-radius: 20px;
+  font-weight: $title-font-light;
+
+  &::after {
+    font-family: FontAwesome;
+    font-size: 18px;
+    content: '\f105';
+    padding-left: 5px;
+    right: 0;
+    position: relative;
+    transform: translateZ(0);
+    transition: transform 0.3s;
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: $primary-color;
+    border-color: $primary-color;
+
+    &::after {
+      left: 5px;
+      padding-right: 5px;
+      transform: translateZ(4px);
+    }
+  }
+}

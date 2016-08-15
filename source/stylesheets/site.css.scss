@@ -1,7 +1,11 @@
 // Core
+@import "core/base";
 @import "core/normalize";
+@import "core/typography";
 
 // Modules
 @import "modules/buttons";
+@import "modules/nav";
 
 // Pages
+@import "pages/home/hero";
