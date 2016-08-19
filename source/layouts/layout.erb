@@ -17,6 +17,24 @@
 
   <body class="<%= page_classes %>">
     <%= yield %>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="social-links">
+              <a href="#" class="fa fa-envelope"></a>
+              <a href="#" class="fa fa-github"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="copyright">© jacob russell 2016</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <%= javascript_include_tag :all %>
