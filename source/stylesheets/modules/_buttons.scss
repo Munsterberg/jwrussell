@@ -31,3 +31,25 @@
     }
   }
 }
+
+.card-btn {
+  background-color: $primary-color;
+  font-size: 12px;
+  border: none;
+  padding: 4px 8px;
+  color: #fff;
+  transition: background-color 0.5s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    color: #fff;
+  }
+}
+
+.site-btn {
+  background-color: #27ae60;
+
+  &:hover {
+    background-color: darken(#27ae60, 10%);
+  }
+}
