@@ -6,14 +6,20 @@
   clear: both;
 }
 
-.social-links a {
-  color: lighten($primary-color, 20%);
-  font-size: 30px;
-  padding-right: 8px;
+.social-links {
+  p {
+    color: lighten($primary-color, 20%);
+  }
 
-  &:hover {
-    text-decoration: none;
-    color: lighten($primary-color, 30%);
+  a {
+    color: lighten($primary-color, 20%);
+    font-size: 30px;
+    padding-right: 8px;
+
+    &:hover {
+      text-decoration: none;
+      color: lighten($primary-color, 30%);
+    }
   }
 }
 
