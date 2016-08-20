@@ -1,0 +1,49 @@
+// ********************
+// Portfolio Section //
+// ********************
+.portfolio-sec {
+  background-color: $secondary-color;
+  color: #fff;
+  padding: 20px 0 50px 0;
+}
+
+.portfolio-sec-header {
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+.portfolio-sec-content {
+  padding-top: 30px;
+}
+
+.title-divider {
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 5px;
+}
+
+// ****************
+// About Section //
+// ****************
+.about-sec {
+  background-color: #FCFBE3;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.about-sec-img {
+  margin: auto;
+  border-radius: 100px;
+}
+
+.about-sec-content {
+  font-size: 24px;
+  font-weight: $title-font-light;
+  padding: 30px 0;
+}

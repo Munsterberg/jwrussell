@@ -1,0 +1,21 @@
+.header-hero {
+  background-image: url('../images/bg_pattern3.png');
+  width: 100%;
+}
+
+.header-hero h1 {
+  padding: 50px 0 20px 0;
+  letter-spacing: 1.5px;
+  font-weight: $title-font-light;
+  color: #000;
+  font-size: 36px;
+}
+
+.header-hero-content {
+  text-align: center;
+}
+
+.fa-angle-right {
+  font-size: 20px;
+  margin-left: 5px;
+}
